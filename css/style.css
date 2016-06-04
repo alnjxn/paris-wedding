@@ -1,0 +1,25 @@
+body {
+  font-family: "Franklin";
+  background-color: white;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 80px;
+  font-weight: normal;
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+h2 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+div#footer {
+  padding: 30px 0;
+}

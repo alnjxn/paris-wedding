@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wedding Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:300' rel='stylesheet' type='text/css'>
+    <link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/themes/light/nanogallery_light.min.css" type="text/css" media="all">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nanogallery.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Shannon &amp; Alan</h1>
+      <h2>Married in Paris</h2>
+    </div>
+    <div id="nanoGallery2"></div>
+    <div id="footer">
+      <h2>The End</h2>
+    </div>
+  </body>
+  <script type="text/javascript" charset="utf-8">
+$(document).ready(function () {
+  $("#nanoGallery2").nanoGallery({
+    thumbnailWidth: 275,
+    thumbnailHeight: 'auto',
+    thumbnailGutterWidth: 10,
+    thumbnailGutterHeight: 10,
+    kind: 'flickr',
+    userID: '141533597@N08',
+    photoset: '72157668862257052',
+    maxItemsPerLine: 5,
+    theme: 'light',
+    thumbnailLabel: { display: false },
+    thumbnailLazyLoad: true,
+    thumbnailLazyLoadTreshold: 500,
+    thumbnailAdjustLastRowHeight: true,
+    colorSchemeViewer: 'light',
+    viewerToolbar: { display: false }
+  });
+});
+  </script>
+</html>
